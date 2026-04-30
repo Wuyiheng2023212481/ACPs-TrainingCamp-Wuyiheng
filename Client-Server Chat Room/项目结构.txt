@@ -1,0 +1,14 @@
+ChatRoom/
+├── src/
+│   ├── server/
+│   │   ├── ChatServer.java      # 服务器主类，负责监听端口和管理客户端
+│   │   ├── ClientHandler.java   # 单个客户端连接的处理线程
+│   │   ├── User.java            # 用户实体类
+│   │   └── UserManager.java     # 用户管理（加载、认证、在线状态）
+│   ├── client/
+│   │   └── ClientUI.java        # 客户端界面与交互逻辑
+│   └── common/
+│       └── Message.java         # （预留）消息类
+├── users.txt                    # 用户信息文件（用户名,密码）
+├── server.log                   # 服务器日志文件
+└── README.md                    # 项目说明文档
